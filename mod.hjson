@@ -3,8 +3,9 @@ displayName: "Form"
 author: "nikito2223"
 main: "form.FormMod"
 repo: "nikito2223/Form"
-description: "A space themed mod. Adds landable asteroids as well as a brand-new planet with unique gameplay.\n\nUses liplum/MultiCrafterLib, but you aren't required to install it."
-version: "0.1"
+group = nikito2223/form-moding
+description: "The mod adds new things, a planet, items, blocks and turrets."
+version: "0.0.2"
 minGameVersion: 140
 java: true
 hidden: false
