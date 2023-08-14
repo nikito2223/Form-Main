@@ -1,0 +1,22 @@
+Mindustry has crashed. How unfortunate.
+Version: beta build 140.1
+OS: Windows 7 x32 (x86)
+Java Version: 17.0.1
+Runtime Available Memory: 247mb
+Cores: 4
+Mods: cheat:2.4, form:0.1
+
+java.lang.IllegalArgumentException: All maps must have a core.
+	at mindustry.maps.generators.FileMapGenerator.generate(FileMapGenerator.java:93)
+	at mindustry.core.World.lambda$loadSector$2(World.java:266)
+	at mindustry.core.World.loadGenerator(World.java:251)
+	at mindustry.core.World.loadSector(World.java:264)
+	at mindustry.core.World.loadSector(World.java:257)
+	at mindustry.core.Control.playNewSector(Control.java:506)
+	at mindustry.core.Control.lambda$playSector$32(Control.java:499)
+	at mindustry.core.UI.lambda$loadAnd$10(UI.java:258)
+	at arc.util.Timer$1.run(Timer.java:88)
+	at arc.util.TaskQueue.run(TaskQueue.java:17)
+	at arc.backend.sdl.SdlApplication.loop(SdlApplication.java:194)
+	at arc.backend.sdl.SdlApplication.<init>(SdlApplication.java:54)
+	at mindustry.desktop.DesktopLauncher.main(DesktopLauncher.java:39)

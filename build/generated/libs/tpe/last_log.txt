@@ -1,0 +1,212 @@
+[I] [GL] Version: OpenGL 3.0.0 / Intel Corporation / Intel(R) Graphics Media Accelerator 3600 Series
+[I] [GL] Max texture size: 8192
+[I] [GL] Using OpenGL 2 context.
+[I] [JAVA] Version: 17.0.1
+[I] [RAM] Available: 247.5 MB
+[W] Shader shaders/mesh.vert | shaders/planet.frag:
+Vertex shader
+Success.
+Fragment shader:
+Success.
+
+[W] Shader shaders/default.vert | shaders/blockbuild.frag:
+Vertex shader
+Success.
+Fragment shader:
+Success.
+
+[W] Shader shaders/screenspace.vert | shaders/shield.frag:
+Vertex shader
+Success.
+Fragment shader:
+Success.
+WARNING: 0:27: 'function_call_constructor@float_float@20' : used without being initialised
+WARNING: 0:27: 'function_call_constructor@vec2_vec2@19' : used without being initialised
+WARNING: 0:32: 'function_call_constructor@vec4_vec4@56' : used without being initialised
+WARNING: 3 compilation warnings.
+
+
+[W] Shader shaders/default.vert | shaders/fog.frag:
+Vertex shader
+Success.
+Fragment shader:
+Success.
+WARNING: 0:19: 'function_call_constructor@vec4_vec4@15' : used without being initialised
+WARNING: 1 compilation warnings.
+
+
+[W] Shader shaders/screenspace.vert | shaders/buildbeam.frag:
+Vertex shader
+Success.
+Fragment shader:
+Success.
+WARNING: 0:24: 'function_call_constructor@float_float@12' : used without being initialised
+WARNING: 1 compilation warnings.
+
+
+[W] Shader shaders/default.vert | shaders/unitbuild.frag:
+Vertex shader
+Success.
+Fragment shader:
+Success.
+WARNING: 0:23: 'function_call_constructor@vec2_vec2@10' : used without being initialised
+WARNING: 0:31: 'function_call_constructor@float_float@27' : used without being initialised
+WARNING: 2 compilation warnings.
+
+
+[W] Shader shaders/default.vert | shaders/unitarmor.frag:
+Vertex shader
+Success.
+Fragment shader:
+Success.
+WARNING: 0:23: 'function_call_constructor@vec2_vec2@10' : used without being initialised
+WARNING: 0:28: 'function_call_constructor@float_float@23' : used without being initialised
+WARNING: 2 compilation warnings.
+
+
+[W] Shader shaders/default.vert | shaders/darkness.frag:
+Vertex shader
+Success.
+Fragment shader:
+Success.
+WARNING: 0:18: 'function_call_constructor@vec4_vec4@6' : used without being initialised
+WARNING: 1 compilation warnings.
+
+
+[W] Shader shaders/screenspace.vert | shaders/light.frag:
+Vertex shader
+Success.
+Fragment shader:
+Success.
+WARNING: 0:17: 'function_call_constructor@vec3_vec3@10' : used without being initialised
+WARNING: 0:17: 'function_call_constructor@vec4_vec4@9' : used without being initialised
+WARNING: 2 compilation warnings.
+
+
+[W] Shader shaders/screenspace.vert | shaders/water.frag:
+Vertex shader
+Success.
+Fragment shader:
+Success.
+WARNING: 0:25: 'function_call_constructor@vec2_vec2@7' : used without being initialised
+WARNING: 0:43: 'function_call_constructor@vec4_vec4@121' : used without being initialised
+WARNING: 2 compilation warnings.
+
+
+[W] Shader shaders/screenspace.vert | shaders/arkycite.frag:
+Vertex shader
+Success.
+Fragment shader:
+Success.
+WARNING: 0:34: 'function_call_constructor@vec2_vec2@14' : used without being initialised
+WARNING: 1 compilation warnings.
+
+
+[W] Shader shaders/screenspace.vert | shaders/mud.frag:
+Vertex shader
+Success.
+Fragment shader:
+Success.
+WARNING: 0:24: 'function_call_constructor@vec2_vec2@12' : used without being initialised
+WARNING: 0:27: 'function_call_constructor@float_float@38' : used without being initialised
+WARNING: 2 compilation warnings.
+
+
+[W] Shader shaders/screenspace.vert | shaders/tar.frag:
+Vertex shader
+Success.
+Fragment shader:
+Success.
+WARNING: 0:24: 'function_call_constructor@vec2_vec2@12' : used without being initialised
+WARNING: 1 compilation warnings.
+
+
+[W] Shader shaders/screenspace.vert | shaders/slag.frag:
+Vertex shader
+Success.
+Fragment shader:
+Success.
+WARNING: 0:27: 'function_call_constructor@vec2_vec2@12' : used without being initialised
+WARNING: 1 compilation warnings.
+
+
+[W] Shader shaders/screenspace.vert | shaders/cryofluid.frag:
+Vertex shader
+Success.
+Fragment shader:
+Success.
+WARNING: 0:27: 'function_call_constructor@vec2_vec2@12' : used without being initialised
+WARNING: 1 compilation warnings.
+
+
+[W] Shader shaders/screenspace.vert | shaders/space.frag:
+Vertex shader
+Success.
+Fragment shader:
+Success.
+WARNING: 0:25: 'function_call_constructor@vec2_vec2@8' : used without being initialised
+WARNING: 1 compilation warnings.
+
+
+[W] Shader shaders/screenspace.vert | shaders/caustics.frag:
+Vertex shader
+Success.
+Fragment shader:
+Success.
+WARNING: 0:24: 'function_call_constructor@vec2_vec2@12' : used without being initialised
+WARNING: 0:31: 'function_call_constructor@float_float@53' : used without being initialised
+WARNING: 0:31: 'function_call_constructor@vec3_vec3@52' : used without being initialised
+WARNING: 0:31: 'function_call_constructor@vec4_vec4@54' : used without being initialised
+WARNING: 4 compilation warnings.
+
+
+[W] Shader shaders/planet.vert | shaders/planet.frag:
+Vertex shader
+Success.
+Fragment shader:
+Success.
+
+[W] Shader shaders/clouds.vert | shaders/planet.frag:
+Vertex shader
+Success.
+WARNING: 0:21: 'function_call_constructor@float_float@12' : used without being initialised
+WARNING: 0:21: 'function_call_constructor@vec3_vec3@11' : used without being initialised
+WARNING: 0:23: 'function_call_constructor@vec4_vec4@16' : used without being initialised
+WARNING: 3 compilation warnings.
+
+Fragment shader:
+Success.
+
+[W] Shader shaders/planetgrid.vert | shaders/planetgrid.frag:
+Vertex shader
+Success.
+Fragment shader:
+Success.
+WARNING: 0:18: 'function_call_constructor@float_float@9' : used without being initialised
+WARNING: 1 compilation warnings.
+
+
+[W] Shader shaders/atmosphere.vert | shaders/atmosphere.frag:
+Vertex shader
+Success.
+Fragment shader:
+Success.
+WARNING: 0:53: 'function_call_constructor@vec2_vec2@25' : used without being initialised
+WARNING: 0:111: 'function_call_constructor@vec4_vec4@148' : used without being initialised
+WARNING: 0:112: 'function_call_constructor@vec3_vec3@152' : used without being initialised
+WARNING: 3 compilation warnings.
+
+
+[W] Shader shaders/unlit.vert | shaders/planet.frag:
+Vertex shader
+Success.
+Fragment shader:
+Success.
+
+[W] Shader shaders/screenspace.vert | shaders/screenspace.frag:
+Vertex shader
+Success.
+Fragment shader:
+Success.
+
+[I] [Mindustry] Version: 23437

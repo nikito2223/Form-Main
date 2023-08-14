@@ -1,0 +1,26 @@
+Mindustry has crashed. How unfortunate.
+Version: beta build 140.1
+OS: Windows 7 x32 (x86)
+Java Version: 17.0.1
+Runtime Available Memory: 247mb
+Cores: 4
+Mods: cheat:2.4, form:0.1
+
+java.lang.ClassCastException: class form.content.FormBlocks$3 cannot be cast to class mindustry.world.blocks.environment.Floor (form.content.FormBlocks$3 is in unnamed module of loader mindustry.core.Platform$1 @e94ef9; mindustry.world.blocks.environment.Floor is in unnamed module of loader 'app')
+	at mindustry.world.Block.asFloor(Block.java:901)
+	at mindustry.maps.generators.BasicGenerator.pass(BasicGenerator.java:337)
+	at form.planets.DawnPlanetGenerator.generate(DawnPlanetGenerator.java:111)
+	at mindustry.maps.generators.BasicGenerator.generate(BasicGenerator.java:37)
+	at mindustry.maps.generators.PlanetGenerator.generate(PlanetGenerator.java:159)
+	at mindustry.core.World.lambda$loadSector$2(World.java:269)
+	at mindustry.core.World.loadGenerator(World.java:251)
+	at mindustry.core.World.loadSector(World.java:264)
+	at mindustry.core.World.loadSector(World.java:257)
+	at mindustry.core.Control.playNewSector(Control.java:506)
+	at mindustry.core.Control.lambda$playSector$32(Control.java:499)
+	at mindustry.core.UI.lambda$loadAnd$10(UI.java:258)
+	at arc.util.Timer$1.run(Timer.java:88)
+	at arc.util.TaskQueue.run(TaskQueue.java:17)
+	at arc.backend.sdl.SdlApplication.loop(SdlApplication.java:194)
+	at arc.backend.sdl.SdlApplication.<init>(SdlApplication.java:54)
+	at mindustry.desktop.DesktopLauncher.main(DesktopLauncher.java:39)

@@ -1,0 +1,34 @@
+Mindustry has crashed. How unfortunate.
+Version: beta build 140.1
+OS: Windows 7 x32 (x86)
+Java Version: 17.0.1
+Runtime Available Memory: 247mb
+Cores: 4
+Mods: cheat:2.4, form:0.1
+
+rhino.EcmaError: TypeError: Cannot read property "x" from null (cc#7)
+	at rhino.ScriptRuntime.constructError(ScriptRuntime.java:3741)
+	at rhino.ScriptRuntime.constructError(ScriptRuntime.java:3721)
+	at rhino.ScriptRuntime.typeError(ScriptRuntime.java:3750)
+	at rhino.ScriptRuntime.typeError2(ScriptRuntime.java:3766)
+	at rhino.ScriptRuntime.undefReadError(ScriptRuntime.java:3776)
+	at rhino.ScriptRuntime.getObjectProp(ScriptRuntime.java:1416)
+	at rhino.gen.cc_13._c_anonymous_2(cc:7)
+	at rhino.gen.cc_13.call(cc)
+	at rhino.ContextFactory.doTopCall(ContextFactory.java:328)
+	at rhino.ScriptRuntime.doTopCall(ScriptRuntime.java:3114)
+	at rhino.gen.cc_13.call(cc)
+	at rhino.Context.lambda$call$0(Context.java:441)
+	at rhino.Context.call(Context.java:450)
+	at rhino.Context.call(Context.java:441)
+	at rhino.JavaAdapter.callMethod(JavaAdapter.java:466)
+	at adapter15.update(<adapter>)
+	at mindustry.entities.EntityGroup.update(EntityGroup.java:76)
+	at mindustry.gen.Groups.update(Groups.java:83)
+	at mindustry.core.Logic.update(Logic.java:472)
+	at arc.ApplicationCore.update(ApplicationCore.java:37)
+	at mindustry.ClientLauncher.update(ClientLauncher.java:230)
+	at arc.backend.sdl.SdlApplication.listen(SdlApplication.java:204)
+	at arc.backend.sdl.SdlApplication.loop(SdlApplication.java:192)
+	at arc.backend.sdl.SdlApplication.<init>(SdlApplication.java:54)
+	at mindustry.desktop.DesktopLauncher.main(DesktopLauncher.java:39)

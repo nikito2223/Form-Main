@@ -1,0 +1,20 @@
+Mindustry has crashed. How unfortunate.
+Version: beta build 139
+OS: Windows 7 x32 (x86)
+Java Version: 16.0.1
+Runtime Available Memory: 247mb
+Cores: 4
+Mods: cheat:2.4, form:1
+
+java.lang.NullPointerException: Cannot invoke "mindustry.maps.generators.PlanetGenerator.addWeather(mindustry.type.Sector, mindustry.game.Rules)" because "sector.planet.generator" is null
+	at mindustry.core.World.setSectorRules(World.java:299)
+	at mindustry.core.World.loadSector(World.java:261)
+	at mindustry.core.World.loadSector(World.java:257)
+	at mindustry.core.Control.playNewSector(Control.java:497)
+	at mindustry.core.Control.lambda$playSector$30(Control.java:490)
+	at mindustry.core.UI.lambda$loadAnd$10(UI.java:256)
+	at arc.util.Timer$1.run(Timer.java:88)
+	at arc.util.TaskQueue.run(TaskQueue.java:17)
+	at arc.backend.sdl.SdlApplication.loop(SdlApplication.java:194)
+	at arc.backend.sdl.SdlApplication.<init>(SdlApplication.java:54)
+	at mindustry.desktop.DesktopLauncher.main(DesktopLauncher.java:39)

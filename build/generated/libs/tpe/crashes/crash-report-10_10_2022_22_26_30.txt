@@ -1,0 +1,26 @@
+Mindustry has crashed. How unfortunate.
+Version: beta build 139
+OS: Windows 7 x32 (x86)
+Java Version: 16.0.1
+Runtime Available Memory: 247mb
+Cores: 4
+Mods: form:12
+
+java.lang.NullPointerException: Cannot invoke "arc.math.geom.QuadTree.intersect(float, float, float, float, arc.func.Cons)" because "mindustry.game.Team.data().buildingTree" is null
+	at mindustry.world.blocks.power.PowerNode.getNodeLinks(PowerNode.java:293)
+	at mindustry.world.Block.drawPotentialLinks(Block.java:415)
+	at mindustry.world.Block.drawPlace(Block.java:407)
+	at mindustry.world.blocks.defense.turrets.BaseTurret.drawPlace(BaseTurret.java:62)
+	at mindustry.input.DesktopInput.drawBottom(DesktopInput.java:181)
+	at mindustry.graphics.OverlayRenderer.drawBottom(OverlayRenderer.java:80)
+	at arc.graphics.g2d.SortedSpriteBatch.flushRequests(SortedSpriteBatch.java:158)
+	at arc.graphics.g2d.SortedSpriteBatch.flush(SortedSpriteBatch.java:138)
+	at arc.graphics.g2d.Draw.flush(Draw.java:375)
+	at mindustry.core.Renderer.draw(Renderer.java:373)
+	at mindustry.core.Renderer.update(Renderer.java:224)
+	at arc.ApplicationCore.update(ApplicationCore.java:37)
+	at mindustry.ClientLauncher.update(ClientLauncher.java:230)
+	at arc.backend.sdl.SdlApplication.listen(SdlApplication.java:204)
+	at arc.backend.sdl.SdlApplication.loop(SdlApplication.java:192)
+	at arc.backend.sdl.SdlApplication.<init>(SdlApplication.java:54)
+	at mindustry.desktop.DesktopLauncher.main(DesktopLauncher.java:39)

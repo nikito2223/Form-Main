@@ -1,0 +1,39 @@
+Mindustry has crashed. How unfortunate.
+Version: pre-alpha build 129
+OS: Windows 7 x32 (x86)
+Java Version: 16.0.1
+38 Mods: braindustry-java:2.0.1 public beta, [scarlet]te[orange]ri[yellow]os:Beta, adc:15.0, additional-content:0.4.1, advancements:1.0, betamindy:1.09, cheat:2.4, classicv5:1.022 Beta, cyber-io:4.1, destroyer:1.0, dusted-lands:0.4, ei:1.5 Alpha, endrium-mod-2:3.1, erekir-logic:Release V1, exogenesis:[blue]1.9.1, extension:1.1, fstrcnvyrs:1.0.4, hard-mode:1.3, major:2.4, me:2.0 - The Erekir Update(1), mega-adds:2, multi-crafter:1.0, new-horizon:0.1.8, new-turrets:0.37: Additional, oblivion:2.3, ol:0.5.1, oxynoe:1, paradox:v1.1-Alpha, prismatic:1.10.125, prog-mats:26.4, scheme-size:2.4.25, shar:0.2v, this-thing:1.5.0, unity:0.1-youngcha.2.8, use-exobegin-units:1.3.3, use-tomorrow-units:1.1, vanillaplus:[#FFC000[]]0.1 [#FF4747[]]Alpha, form:[#9cb6f4]2.6.0[]
+
+arc.util.ArcRuntimeException: java.lang.NoClassDefFoundError: mindustry/type/AmmoTypes
+	at arc.assets.AssetManager.handleTaskError(AssetManager.java:670)
+	at arc.assets.AssetManager.update(AssetManager.java:442)
+	at arc.assets.AssetManager.update(AssetManager.java:465)
+	at mindustry.ClientLauncher.update(ClientLauncher.java:143)
+	at arc.backend.sdl.SdlApplication.listen(SdlApplication.java:165)
+	at arc.backend.sdl.SdlApplication.loop(SdlApplication.java:153)
+	at arc.backend.sdl.SdlApplication.<init>(SdlApplication.java:45)
+	at mindustry.desktop.DesktopLauncher.main(DesktopLauncher.java:38)
+Caused by: java.lang.NoClassDefFoundError: mindustry/type/AmmoTypes
+	at braindustry.core.ModContentLoader.<init>(ModContentLoader.java:42)
+	at braindustry.BraindustryMod.loadContent(BraindustryMod.java:108)
+	at mindustry.mod.Mods.loadContent(Mods.java:580)
+	at mindustry.core.ContentLoader.createModContent(ContentLoader.java:73)
+	at mindustry.ClientLauncher.lambda$setup$4(ClientLauncher.java:97)
+	at arc.assets.AssetManager$1.loadSync(AssetManager.java:334)
+	at arc.assets.AssetLoadingTask.handleAsyncLoader(AssetLoadingTask.java:109)
+	at arc.assets.AssetLoadingTask.update(AssetLoadingTask.java:74)
+	at arc.assets.AssetManager.updateTask(AssetManager.java:591)
+	at arc.assets.AssetManager.update(AssetManager.java:440)
+	... 6 more
+Caused by: java.lang.ClassNotFoundException: mindustry.type.AmmoTypes
+	at mindustry.mod.ModClassLoader.findClass(ModClassLoader.java:27)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:586)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:519)
+	at mindustry.core.Platform$1.loadClass(Platform.java:36)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:519)
+	at mindustry.mod.ModClassLoader.findClass(ModClassLoader.java:38)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:586)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:519)
+	at mindustry.core.Platform$1.loadClass(Platform.java:36)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:519)
+	... 16 more

@@ -1,0 +1,36 @@
+Mindustry has crashed. How unfortunate.
+Version: beta build 139
+OS: Windows 7 x32 (x86)
+Java Version: 16.0.1
+Runtime Available Memory: 247mb
+Cores: 4
+Mods: form:[#9cb6f4]2.6.0[], rpm:0.2
+
+java.lang.ArrayIndexOutOfBoundsException: Index 80003 out of bounds for length 80000
+	at arc.graphics.g3d.VertexBatch3D.color(VertexBatch3D.java:147)
+	at arc.graphics.g3d.VertexBatch3D.tri(VertexBatch3D.java:190)
+	at arc.graphics.g3d.VertexBatch3D.tri(VertexBatch3D.java:182)
+	at mindustry.graphics.g3d.PlanetRenderer.fill(PlanetRenderer.java:283)
+	at mindustry.ui.dialogs.PlanetDialog.renderSectors(PlanetDialog.java:436)
+	at mindustry.graphics.g3d.PlanetRenderer.renderSectors(PlanetRenderer.java:187)
+	at mindustry.graphics.g3d.PlanetRenderer.renderTransparent(PlanetRenderer.java:152)
+	at mindustry.graphics.g3d.PlanetRenderer.renderTransparent(PlanetRenderer.java:160)
+	at mindustry.graphics.g3d.PlanetRenderer.render(PlanetRenderer.java:113)
+	at mindustry.ui.dialogs.PlanetDialog$5.draw(PlanetDialog.java:593)
+	at arc.scene.Group.drawChildren(Group.java:125)
+	at arc.scene.Group.draw(Group.java:51)
+	at arc.scene.ui.layout.WidgetGroup.draw(WidgetGroup.java:142)
+	at arc.scene.Group.drawChildren(Group.java:109)
+	at arc.scene.ui.layout.Table.draw(Table.java:108)
+	at arc.scene.ui.Dialog.draw(Dialog.java:297)
+	at mindustry.ui.dialogs.PlanetDialog.draw(PlanetDialog.java:740)
+	at arc.scene.Group.drawChildren(Group.java:125)
+	at arc.scene.Group.draw(Group.java:51)
+	at arc.scene.Scene.draw(Scene.java:137)
+	at mindustry.core.UI.update(UI.java:147)
+	at arc.ApplicationCore.update(ApplicationCore.java:37)
+	at mindustry.ClientLauncher.update(ClientLauncher.java:230)
+	at arc.backend.sdl.SdlApplication.listen(SdlApplication.java:204)
+	at arc.backend.sdl.SdlApplication.loop(SdlApplication.java:192)
+	at arc.backend.sdl.SdlApplication.<init>(SdlApplication.java:54)
+	at mindustry.desktop.DesktopLauncher.main(DesktopLauncher.java:39)

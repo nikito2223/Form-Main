@@ -1,0 +1,30 @@
+Mindustry has crashed. How unfortunate.
+Version: beta build 140.1
+OS: Windows 7 x32 (x86)
+Java Version: 17.0.1
+Runtime Available Memory: 247mb
+Cores: 4
+Mods: cheat:2.4, form:0.1
+
+java.lang.RuntimeException: non-invertible matrix
+	at arc.math.geom.Mat3D.inv(Mat3D.java:424)
+	at arc.graphics.g3d.Camera3D.update(Camera3D.java:48)
+	at mindustry.graphics.g3d.PlanetRenderer.render(PlanetRenderer.java:80)
+	at mindustry.ui.dialogs.PlanetDialog$5.draw(PlanetDialog.java:599)
+	at arc.scene.Group.drawChildren(Group.java:125)
+	at arc.scene.Group.draw(Group.java:51)
+	at arc.scene.ui.layout.WidgetGroup.draw(WidgetGroup.java:142)
+	at arc.scene.Group.drawChildren(Group.java:109)
+	at arc.scene.ui.layout.Table.draw(Table.java:108)
+	at arc.scene.ui.Dialog.draw(Dialog.java:297)
+	at mindustry.ui.dialogs.PlanetDialog.draw(PlanetDialog.java:746)
+	at arc.scene.Group.drawChildren(Group.java:125)
+	at arc.scene.Group.draw(Group.java:51)
+	at arc.scene.Scene.draw(Scene.java:137)
+	at mindustry.core.UI.update(UI.java:148)
+	at arc.ApplicationCore.update(ApplicationCore.java:37)
+	at mindustry.ClientLauncher.update(ClientLauncher.java:230)
+	at arc.backend.sdl.SdlApplication.listen(SdlApplication.java:204)
+	at arc.backend.sdl.SdlApplication.loop(SdlApplication.java:192)
+	at arc.backend.sdl.SdlApplication.<init>(SdlApplication.java:54)
+	at mindustry.desktop.DesktopLauncher.main(DesktopLauncher.java:39)

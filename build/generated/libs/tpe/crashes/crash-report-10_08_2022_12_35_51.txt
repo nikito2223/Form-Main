@@ -1,0 +1,26 @@
+Mindustry has crashed. How unfortunate.
+Version: pre-alpha build 127
+OS: Windows 7 x32
+Java Version: 16.0.1
+Java Architecture: 32
+7 Mods: braindustry-java:2.0 public beta, cheat:2.4, form:12, mobile-mapshot:1.0.0, mobile-ui:3.0.0, music-remixes-pt-1:1.1, pan_for_mobile:1.0.0
+
+java.lang.RuntimeException: Error loading mod braindustry-java
+	at mindustry.mod.Mods.contextRun(Mods.java:694)
+	at mindustry.mod.Mods.lambda$eachClass$27(Mods.java:682)
+	at arc.struct.Seq.each(Seq.java:193)
+	at mindustry.mod.Mods.eachClass(Mods.java:682)
+	at mindustry.ClientLauncher.update(ClientLauncher.java:150)
+	at arc.backend.sdl.SdlApplication.listen(SdlApplication.java:166)
+	at arc.backend.sdl.SdlApplication.loop(SdlApplication.java:154)
+	at arc.backend.sdl.SdlApplication.<init>(SdlApplication.java:46)
+	at mindustry.desktop.DesktopLauncher.main(DesktopLauncher.java:38)
+Caused by: java.lang.NoSuchFieldError: buttonSquareOver
+	at braindustry.ui.ModStyles$1.<init>(ModStyles.java:23)
+	at braindustry.ui.ModStyles.load(ModStyles.java:19)
+	at braindustry.core.ModUI.init(ModUI.java:54)
+	at ModVars.modVars.init(modVars.java:97)
+	at braindustry.BraindustryMod.init(BraindustryMod.java:110)
+	at mindustry.mod.Mods.lambda$eachClass$26(Mods.java:682)
+	at mindustry.mod.Mods.contextRun(Mods.java:692)
+	... 8 more

@@ -1,0 +1,21 @@
+Mindustry has crashed. How unfortunate.
+Version: beta build 140.1
+OS: Windows 7 x32 (x86)
+Java Version: 17.0.1
+Runtime Available Memory: 247mb
+Cores: 4
+Mods: cheat:2.4, form:0.1
+
+java.lang.NullPointerException: Cannot invoke "mindustry.type.UnitType.supportsEnv(int)" because "this.this$0.unitType" is null
+	at mindustry.world.blocks.storage.CoreBlock$CoreBuild.requestSpawn(CoreBlock.java:286)
+	at mindustry.world.blocks.storage.CoreBlock$CoreBuild.onControlSelect(CoreBlock.java:281)
+	at mindustry.input.InputHandler.buildingControlSelect(InputHandler.java:503)
+	at mindustry.gen.Call.buildingControlSelect(Call.java:160)
+	at mindustry.input.DesktopInput.update(DesktopInput.java:298)
+	at mindustry.core.Control.update(Control.java:630)
+	at arc.ApplicationCore.update(ApplicationCore.java:37)
+	at mindustry.ClientLauncher.update(ClientLauncher.java:230)
+	at arc.backend.sdl.SdlApplication.listen(SdlApplication.java:204)
+	at arc.backend.sdl.SdlApplication.loop(SdlApplication.java:192)
+	at arc.backend.sdl.SdlApplication.<init>(SdlApplication.java:54)
+	at mindustry.desktop.DesktopLauncher.main(DesktopLauncher.java:39)

@@ -1,0 +1,37 @@
+Mindustry has crashed. How unfortunate.
+Version: beta build 140.1
+OS: Windows 7 x32 (x86)
+Java Version: 17.0.1
+Runtime Available Memory: 247mb
+Cores: 4
+Mods: cheat:2.4, form:0.1
+
+arc.util.ArcRuntimeException: arc.util.ArcRuntimeException: File not found: maps\sole ray.msav (internal)
+	at arc.assets.AssetManager.handleTaskError(AssetManager.java:669)
+	at arc.assets.AssetManager.update(AssetManager.java:441)
+	at arc.assets.AssetManager.update(AssetManager.java:464)
+	at mindustry.ClientLauncher.update(ClientLauncher.java:208)
+	at arc.backend.sdl.SdlApplication.listen(SdlApplication.java:204)
+	at arc.backend.sdl.SdlApplication.loop(SdlApplication.java:192)
+	at arc.backend.sdl.SdlApplication.<init>(SdlApplication.java:54)
+	at mindustry.desktop.DesktopLauncher.main(DesktopLauncher.java:39)
+Caused by: arc.util.ArcRuntimeException: File not found: maps\sole ray.msav (internal)
+	at arc.files.Fi.read(Fi.java:199)
+	at arc.files.Fi.read(Fi.java:216)
+	at mindustry.io.MapIO.createMap(MapIO.java:38)
+	at mindustry.maps.Maps.loadInternalMap(Maps.java:104)
+	at mindustry.maps.generators.FileMapGenerator.<init>(FileMapGenerator.java:19)
+	at mindustry.type.SectorPreset.<init>(SectorPreset.java:41)
+	at mindustry.type.SectorPreset.<init>(SectorPreset.java:34)
+	at form.content.FormSectors$1.<init>(FormSectors.java:12)
+	at form.content.FormSectors.load(FormSectors.java:12)
+	at form.FormMod.loadContent(FormMod.java:56)
+	at mindustry.mod.Mods.loadContent(Mods.java:653)
+	at mindustry.core.ContentLoader.createModContent(ContentLoader.java:61)
+	at mindustry.ClientLauncher.lambda$setup$4(ClientLauncher.java:162)
+	at arc.assets.AssetManager$1.loadSync(AssetManager.java:333)
+	at arc.assets.AssetLoadingTask.handleAsyncLoader(AssetLoadingTask.java:108)
+	at arc.assets.AssetLoadingTask.update(AssetLoadingTask.java:73)
+	at arc.assets.AssetManager.updateTask(AssetManager.java:590)
+	at arc.assets.AssetManager.update(AssetManager.java:439)
+	... 6 more

@@ -1,0 +1,16 @@
+Mindustry has crashed. How unfortunate.
+Version: alpha build 138.1
+OS: Windows 7 x32 (x86)
+Java Version: 16.0.1
+Runtime Available Memory: 247mb
+Cores: 4
+<no mod init>
+
+java.lang.ExceptionInInitializerError
+	at arc.backend.sdl.SdlGL20.glGetString(SdlGL20.java:36)
+	at arc.backend.sdl.SdlGraphics.<init>(SdlGraphics.java:38)
+	at arc.backend.sdl.SdlApplication.<init>(SdlApplication.java:39)
+	at mindustry.desktop.DesktopLauncher.main(DesktopLauncher.java:39)
+Caused by: arc.util.ArcRuntimeException: GLEW failed to initialize: Missing framebuffer_object extension.
+	at arc.backend.sdl.jni.SDLGL.<clinit>(SDLGL.java:103)
+	... 4 more

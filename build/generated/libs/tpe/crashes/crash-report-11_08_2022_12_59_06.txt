@@ -1,0 +1,32 @@
+Mindustry has crashed. How unfortunate.
+Version: beta build 140.1
+OS: Windows 7 x32 (x86)
+Java Version: 17.0.1
+Runtime Available Memory: 247mb
+Cores: 4
+Mods: cheat:2.4, form:0.1
+
+java.lang.NullPointerException: Cannot read field "fullIcon" because "mindustry.gen.Player.bestCore().block.unitType" is null
+	at mindustry.gen.Player.icon(Player.java:449)
+	at mindustry.ui.fragments.HudFragment.lambda$makeStatusTable$85(HudFragment.java:749)
+	at arc.scene.ui.layout.Table.lambda$image$2(Table.java:371)
+	at arc.scene.ui.layout.Cell.lambda$update$0(Cell.java:171)
+	at arc.scene.Element.act(Element.java:79)
+	at arc.scene.Group.act(Group.java:41)
+	at arc.scene.Group.act(Group.java:41)
+	at arc.scene.Group.act(Group.java:41)
+	at arc.scene.Group.act(Group.java:41)
+	at arc.scene.Group.act(Group.java:41)
+	at arc.scene.Group.act(Group.java:41)
+	at arc.scene.Group.act(Group.java:41)
+	at arc.scene.Group.act(Group.java:41)
+	at arc.scene.Group.act(Group.java:41)
+	at arc.scene.Scene.act(Scene.java:198)
+	at arc.scene.Scene.act(Scene.java:143)
+	at mindustry.core.UI.update(UI.java:147)
+	at arc.ApplicationCore.update(ApplicationCore.java:37)
+	at mindustry.ClientLauncher.update(ClientLauncher.java:230)
+	at arc.backend.sdl.SdlApplication.listen(SdlApplication.java:204)
+	at arc.backend.sdl.SdlApplication.loop(SdlApplication.java:192)
+	at arc.backend.sdl.SdlApplication.<init>(SdlApplication.java:54)
+	at mindustry.desktop.DesktopLauncher.main(DesktopLauncher.java:39)
